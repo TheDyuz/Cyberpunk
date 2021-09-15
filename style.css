@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+
+body{ 
+    font-family: 'RicassoRegular' , sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Urbanist', serif;
+    background-color: black;
+    position: relative;
+    
+    
+}
+
+/*barre de nav*/
+
+nav{
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color:rgb(0, 0, 0);
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+
+.onglets img{
+    width: 100px;
+    border-radius: 100%;
+    margin-right: 10px;
+    position: absolute;
+    left: 2%;
+    top: -100%;
+    border: solid 4px rgb(96, 170, 199);
+    cursor:pointer;
+}
+
+
+.onglets{
+    color: white;
+    font-size: 27px;
+    display: flex;
+    justify-content: space-evenly;
+    text-shadow: rgb(0, 0, 0) 0px 0px 4px,  rgba(255, 145, 0, 0.541) 2px 2px 2px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0%;
+    
+    
+}
+
+.onglets .link{
+    cursor:pointer;
+    margin-left: 10%;
+}
+
+.onglets .item{
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+
+
+
+
+/*fin de la barre de nav*/
+
+/* debut du header*/
+
+.header{
+    margin-top: 50px;
+    margin-left: 30px;
+    min-height: 100vh;
+    width: 69%;
+    background-image: url(https://images.pexels.com/photos/4488636/pexels-photo-4488636.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    z-index: 1;
+    border-radius: 30px;
+    filter: contrast(105%);
+    filter: drop-shadow(-6px 16px 25px rgb(255, 145, 0)) invert(2%);
+    border: solid 1px rgb(96, 170, 199);
+}
+
+
+.header .titre{
+    display: flex;
+    color: rgb(255, 136, 0);
+    font-size: 130px;
+    margin-right: 5%;
+    justify-content:flex-end ;
+    font-style: bold;
+    text-shadow: rgb(96, 170, 199) 0px 0px 4px,  rgb(255, 255, 255) 2px 2px 2px;
+    margin-top: 40px;
+}
+
+
+#trait-nav{
+    border-bottom: 3px solid rgb(255, 136, 0);
+    width : 150%;
+}
+
+
+.header .texte{
+    display: flex;
+    color: rgb(255, 136, 0);
+    justify-content: flex-end;
+    margin-right: 30%;
+    font-style: bold;
+    font-size: 50px;
+    text-shadow: rgb(0, 0, 0) 8px 6px 4px,  rgb(255, 115, 0) 2px 2px 2px;
+}
+
+
+.header img{
+    position: absolute;
+    border-radius: 20px;
+    border: solid 1px rgb(96, 170, 199);
+    right: -41%;
+    top: 0%;
+    width: 40%;
+    flex-wrap: wrap;
+    
+}
+
+/* fin du header */
+
+
+/*debut de section*/
+section{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+
+}
+
+section .cards .titre a{
+    text-decoration: none;
+    color:rgb(255, 136, 0)
+    
+}
+
+section .cards .titre a:hover{
+    color: rgb(96, 170, 199);
+}
+
+.cards .card{
+    color: white;
+    margin: 100px;
+    
+}
+
+
+.cards .cardheader .titre {
+   
+    color:rgb(255, 136, 0) ;
+}
+
+.cards .card p{
+
+    font-size: 120%;
+}
+
+.cards .card hr{
+    color: tomato;
+}
+
+
+#trait-texte{
+    border-bottom: 2px solid rgb(255, 136, 0);
+    width : 50%;
+}
+ 
+
+main .card2{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards2{
+    
+  display: flex;
+  
+}
+
+
+
+.cards2 .image2{
+    width: 30%;
+    margin:30px ;
+    border-radius: 20px;
+    border: solid 1px rgb(96, 170, 199);
+    justify-content: center;
+}
+
+/* fin de section*/
+
+
+/* partie cyberpunk*/
+
+.cards3{
+    display: flex;
+    justify-content: center;
+    padding: 7%;
+    flex-wrap: wrap;
+    border: solid 1px rgb(255, 115, 0);
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.cards3 .titre2{
+
+    color: rgb(255, 136, 0);
+    margin-bottom: 6%;
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: rgb(0, 0, 0) 8px 6px 4px,  rgb(255, 115, 0) 7px 4px 4px;
+    font-family: 'RicassoRegular';
+}
+
+
+.cards3 .texte2  {
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 25px;
+    font-family: 'RicassoRegular';
+}
+
+.trait-titre2{
+    width: 1000px;
+    height: 2px;
+    background: linear-gradient(to right,rgb(255, 115, 0), rgb(0, 0, 0) );
+}
+
+.trait-texte2{
+    width: 1500px;
+    height: 2px;
+    background: linear-gradient(to right,rgb(255, 115, 0), rgb(0, 0, 0) );
+}
+
+ /* partie 2 cyberpunk */   
+
+
+
+
+article{
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+
+.cards4{
+    display: flex;
+    
+    
+}
+
+.card4{
+    color: white;
+    margin: 30px;
+    border: solid 2px rgb(96, 170, 199);
+    border-radius: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    
+
+}
+
+.cards4 .image1{
+    width: 300px;
+    height: 480px;
+}
+
+.cards4 .image2{
+    width: 300px;
+    height: 480px;
+ 
+}
+
+.cards4 .image3{
+    width: 395px;
+    height: 480px;
+}
+
+.cards4 .image4{
+    width: 300px;
+    height: 480px;
+}
+
+
+.cards4 .titre4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.cards4 .texte4{
+    display: flex;
+    font-size: 25px;    
+    margin-top: 30px;
+}
+
+/* fin partie 2 cyberpunk */
+
+/*fin de la partie cyberpunk*/
